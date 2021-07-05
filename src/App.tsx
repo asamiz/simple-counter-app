@@ -1,8 +1,19 @@
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+} from 'react-router-dom'
+import routes from './routes';
+
 function App() {
   return (
-    <div className="App">
-      <h1>{'Simple Counter'}</h1>
+    <Router>
+    <div>
+      <Switch>
+        {routes.map((entry) => {return (<Route {...entry}/>)})}
+      </Switch>
     </div>
+  </Router>
   );
 }
 
