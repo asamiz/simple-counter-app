@@ -1,0 +1,14 @@
+.btn-container {
+  background: #182848;
+  padding: 0.8rem;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type="button"] {
+  font-size: 0.9em;
+  font-family: "Poppins";
+  font-weight: 700;
+  color: #ffffff;
+}

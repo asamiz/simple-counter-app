@@ -1,11 +1,16 @@
-import './styles'
+import { IButtonProps } from "../../types";
+import "./styles.css";
 
-function Button(){
-    return (
-        <div>
-            <h1>{'Button Component'}</h1>
-        </div>
-    )
+function Button({ title, onClick, containerStyle }: IButtonProps) {
+  return (
+    <input
+      className={"btn-container"}
+      type={"button"}
+      onClick={onClick}
+      style={containerStyle}
+      value={title}
+    />
+  );
 }
 
-export default Button
+export default Button;

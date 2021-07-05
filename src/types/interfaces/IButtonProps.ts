@@ -1,3 +1,5 @@
 export interface IButtonProps {
-    name: string
+  title: string;
+  onClick: () => void;
+  containerStyle?: {};
 }
