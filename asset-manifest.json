@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/simple-counter-app/static/css/main.4221c4c3.chunk.css",
-    "main.js": "/simple-counter-app/static/js/main.c626239f.chunk.js",
-    "main.js.map": "/simple-counter-app/static/js/main.c626239f.chunk.js.map",
-    "runtime-main.js": "/simple-counter-app/static/js/runtime-main.28f87bad.js",
-    "runtime-main.js.map": "/simple-counter-app/static/js/runtime-main.28f87bad.js.map",
-    "static/js/2.bb783846.chunk.js": "/simple-counter-app/static/js/2.bb783846.chunk.js",
-    "static/js/2.bb783846.chunk.js.map": "/simple-counter-app/static/js/2.bb783846.chunk.js.map",
-    "index.html": "/simple-counter-app/index.html",
-    "static/css/main.4221c4c3.chunk.css.map": "/simple-counter-app/static/css/main.4221c4c3.chunk.css.map",
-    "static/js/2.bb783846.chunk.js.LICENSE.txt": "/simple-counter-app/static/js/2.bb783846.chunk.js.LICENSE.txt"
+    "main.css": "https://asamiz.github.io/simple-counter-app/static/css/main.4221c4c3.chunk.css",
+    "main.js": "https://asamiz.github.io/simple-counter-app/static/js/main.b1860517.chunk.js",
+    "main.js.map": "https://asamiz.github.io/simple-counter-app/static/js/main.b1860517.chunk.js.map",
+    "runtime-main.js": "https://asamiz.github.io/simple-counter-app/static/js/runtime-main.a17779a6.js",
+    "runtime-main.js.map": "https://asamiz.github.io/simple-counter-app/static/js/runtime-main.a17779a6.js.map",
+    "static/js/2.bb783846.chunk.js": "https://asamiz.github.io/simple-counter-app/static/js/2.bb783846.chunk.js",
+    "static/js/2.bb783846.chunk.js.map": "https://asamiz.github.io/simple-counter-app/static/js/2.bb783846.chunk.js.map",
+    "index.html": "https://asamiz.github.io/simple-counter-app/index.html",
+    "static/css/main.4221c4c3.chunk.css.map": "https://asamiz.github.io/simple-counter-app/static/css/main.4221c4c3.chunk.css.map",
+    "static/js/2.bb783846.chunk.js.LICENSE.txt": "https://asamiz.github.io/simple-counter-app/static/js/2.bb783846.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.28f87bad.js",
+    "static/js/runtime-main.a17779a6.js",
     "static/js/2.bb783846.chunk.js",
     "static/css/main.4221c4c3.chunk.css",
-    "static/js/main.c626239f.chunk.js"
+    "static/js/main.b1860517.chunk.js"
   ]
 }
