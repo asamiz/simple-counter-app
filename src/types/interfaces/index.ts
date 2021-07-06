@@ -1,1 +1,1 @@
-export * from './IButtonProps'
+export * from "./IButtonProps";

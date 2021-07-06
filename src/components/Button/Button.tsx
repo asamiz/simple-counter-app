@@ -1,14 +1,14 @@
 import { IButtonProps } from "../../types";
 import "./styles.css";
 
-function Button({ title, onClick, containerStyle }: IButtonProps) {
+function Button({ title, onClick, id }: IButtonProps) {
   return (
     <input
       className={"btn-container"}
       type={"button"}
       onClick={onClick}
-      style={containerStyle}
       value={title}
+      id={id}
     />
   );
 }
