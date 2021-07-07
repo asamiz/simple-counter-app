@@ -1,6 +1,7 @@
 import { useState } from "react";
 import "./styles.css";
 import { Button } from "../../components";
+import { isBrowser } from "react-device-detect";
 
 function Home() {
   const [value, setValue] = useState<number>(0);
@@ -10,6 +11,17 @@ function Home() {
 
   const decrementValue = (): void =>
     setValue((preValue: number) => preValue - 1);
+
+  const openMobileApp = (): void => {
+    if (isBrowser) {
+      alert(
+        "You can not perform this action on web app, please open from your phone"
+      );
+      return;
+    }
+    const url: string = process.env.REACT_APP_MOBILE_BASE_URL! + value;
+    window.location.assign(url);
+  };
 
   return (
     <div className={"home-container"}>
@@ -26,7 +38,7 @@ function Home() {
             "Note: When you click the button this will close the app and open the mobile app, make sure you installed the mobile app successfully."
           }
         </h5>
-        <Button title={"Close"} onClick={() => {}} id={"close-btn-home"} />
+        <Button title={"Close"} onClick={openMobileApp} id={"close-btn-home"} />
       </div>
     </div>
   );
