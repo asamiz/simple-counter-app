@@ -2,10 +2,10 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
-  margin-top: 3rem;
+  margin-top: 1.7rem;
   background-color: #ffffff;
   width: 90vw;
-  height: 90vh;
+  height: 92vh;
   border-radius: 12px;
   align-self: center;
   overflow: hidden;
@@ -34,12 +34,12 @@
 .landing-header {
   text-align: center;
   color: #ffffff;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
 }
 
 .landing-body {
   text-align: center;
-  line-height: 2.3;
+  line-height: 2;
   color: #ffffff;
   margin-inline: 0.7rem;
 }
@@ -47,7 +47,11 @@
 .landing-bot-view-text {
   text-align: center;
   color: #514a9d;
-  margin-inline: 0.7rem;
+  margin-inline: 0.65rem;
+}
+
+#close-btn-home {
+  margin-bottom: 1rem;
 }
 
 @media only screen and (min-width: 320px) {
