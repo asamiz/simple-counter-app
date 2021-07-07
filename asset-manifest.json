@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/simple-counter-app/static/css/main.c5251bb0.chunk.css",
-    "main.js": "/simple-counter-app/static/js/main.919871c9.chunk.js",
-    "main.js.map": "/simple-counter-app/static/js/main.919871c9.chunk.js.map",
+    "main.js": "/simple-counter-app/static/js/main.cb209048.chunk.js",
+    "main.js.map": "/simple-counter-app/static/js/main.cb209048.chunk.js.map",
     "runtime-main.js": "/simple-counter-app/static/js/runtime-main.28f87bad.js",
     "runtime-main.js.map": "/simple-counter-app/static/js/runtime-main.28f87bad.js.map",
     "static/js/2.f064c31e.chunk.js": "/simple-counter-app/static/js/2.f064c31e.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.28f87bad.js",
     "static/js/2.f064c31e.chunk.js",
     "static/css/main.c5251bb0.chunk.css",
-    "static/js/main.919871c9.chunk.js"
+    "static/js/main.cb209048.chunk.js"
   ]
 }
