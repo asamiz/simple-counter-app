@@ -17,7 +17,7 @@ Users can increment and decrement the value of the counter and close thea pp to 
   **_The reason why I used uri scheme as I don't have a Google Developer account or Apple Developer Membership and I will not be able to provide a fallback option also universal links requires having Apple Developer Membership_**
 
 - As a result of what I mentioned in the first note, **Please make sure that you installed the app on your phone by running it locally on physical device on debugging mode or install the APK(For Android) or IPA(For IOS) as mentioned in the mobile app repo before using the web app to perform the requested cycle**
-- Uploading `.env` file is not correct as the file usually contains important private keys an URLs, however for demo purpose I uploaded it here so that it will be accessible for everybody.
+- Uploading `.env` file is not correct as the file usually contains important private keys and URLs, however for demo purpose I uploaded it here so that it will be accessible for everybody.
 
 [Mobile App Repo](https://github.com/asamiz/qr-counter)
 

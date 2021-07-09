@@ -24,13 +24,25 @@ function Home() {
   };
 
   return (
-    <div className={"home-container"}>
+    <div className={"home-container"} data-testid={"home-container"}>
       <div className={"home-content-container"}>
-        <Button title={"-"} onClick={decrementValue} id={"action-btn-home"} />
+        <Button
+          title={"-"}
+          onClick={decrementValue}
+          id={"action-btn-home"}
+          testId={"action-btn-decrement"}
+        />
         <div className={"home-counter-container"}>
-          <h1 className={"home-counter"}>{value}</h1>
+          <h1 className={"home-counter"} data-testid={"app-counter"}>
+            {value}
+          </h1>
         </div>
-        <Button title={"+"} onClick={incrementValue} id={"action-btn-home"} />
+        <Button
+          title={"+"}
+          onClick={incrementValue}
+          id={"action-btn-home"}
+          testId={"action-btn-increment"}
+        />
       </div>
       <div className={"home-bot-view"}>
         <h5 className={"home-bot-note"}>
@@ -38,7 +50,12 @@ function Home() {
             "Note: When you click the button this will close the app and open the mobile app, make sure you installed the mobile app successfully."
           }
         </h5>
-        <Button title={"Close"} onClick={openMobileApp} id={"close-btn-home"} />
+        <Button
+          title={"Close"}
+          onClick={openMobileApp}
+          id={"close-btn-home"}
+          testId={"close-btn-home"}
+        />
       </div>
     </div>
   );
