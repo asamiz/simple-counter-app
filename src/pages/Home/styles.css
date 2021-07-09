@@ -70,3 +70,18 @@
   font-size: 0.9em;
   text-align: center;
 }
+
+/* styles for safari mob */
+@supports (-webkit-touch-callout: none) {
+  #close-btn-home {
+    border: none;
+    -webkit-appearance: none;
+  }
+  #action-btn-home {
+    border: none;
+    -webkit-appearance: none;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    padding-left: 1rem;
+  }
+}

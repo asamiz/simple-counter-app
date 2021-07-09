@@ -25,6 +25,7 @@ function Landing() {
           onClick={handleClick}
           title={"Counter Page"}
           testId={"counter-page-btn"}
+          id={"counter-page-btn"}
         />
       </div>
     </div>
