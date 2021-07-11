@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/simple-counter-app/static/css/main.d5ebe370.chunk.css",
+    "main.css": "/simple-counter-app/static/css/main.13541864.chunk.css",
     "main.js": "/simple-counter-app/static/js/main.4b6335fa.chunk.js",
     "main.js.map": "/simple-counter-app/static/js/main.4b6335fa.chunk.js.map",
     "runtime-main.js": "/simple-counter-app/static/js/runtime-main.28f87bad.js",
@@ -8,13 +8,13 @@
     "static/js/2.ec4e3297.chunk.js": "/simple-counter-app/static/js/2.ec4e3297.chunk.js",
     "static/js/2.ec4e3297.chunk.js.map": "/simple-counter-app/static/js/2.ec4e3297.chunk.js.map",
     "index.html": "/simple-counter-app/index.html",
-    "static/css/main.d5ebe370.chunk.css.map": "/simple-counter-app/static/css/main.d5ebe370.chunk.css.map",
+    "static/css/main.13541864.chunk.css.map": "/simple-counter-app/static/css/main.13541864.chunk.css.map",
     "static/js/2.ec4e3297.chunk.js.LICENSE.txt": "/simple-counter-app/static/js/2.ec4e3297.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.28f87bad.js",
     "static/js/2.ec4e3297.chunk.js",
-    "static/css/main.d5ebe370.chunk.css",
+    "static/css/main.13541864.chunk.css",
     "static/js/main.4b6335fa.chunk.js"
   ]
 }
