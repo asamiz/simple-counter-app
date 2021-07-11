@@ -13,13 +13,13 @@ function Landing() {
         <h1 className={"landing-header"}>{"Simple counter app"}</h1>
         <p className={"landing-body"}>
           {
-            "A simple counter app using developed using React framework which user can use to change the value of the counter and close the web app to open the mobile app and mobile app will add the add the counter value to a counter inside the mobile app and preserve this value even the app is closed!"
+            "A simple counter app developed using React framework which user can use to change the value of the counter and close the web app to open the mobile app and mobile app will add the add the counter value to a counter inside the mobile app and preserve this value even the app is closed!"
           }
         </p>
       </div>
       <div className={"landing-right-view"}>
         <h3 className={"landing-bot-view-text"}>
-          {"Click here to go to the counter page 👇"}
+          {"CLICK HERE TO GO TO THE COUNTER PAGE 👇"}
         </h3>
         <Button
           onClick={handleClick}

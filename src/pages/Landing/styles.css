@@ -6,7 +6,6 @@
   background-color: #ffffff;
   width: 90vw;
   height: 92vh;
-  border-radius: 12px;
   align-self: center;
   overflow: hidden;
 }
@@ -19,7 +18,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background-color: #2b5876;
+  background-color: #99a3a4;
 }
 .landing-right-view {
   flex: 70%;
@@ -41,16 +40,15 @@
   text-align: center;
   line-height: 2;
   color: #ffffff;
-  margin-inline: 0.7rem;
+  margin-inline: 1rem;
 }
 
 .landing-bot-view-text {
   text-align: center;
-  color: #514a9d;
+  color: #1f618d;
   margin-inline: 0.65rem;
-}
-
-#close-btn-home {
+  line-height: 1.4;
+  letter-spacing: 1px;
   margin-bottom: 1rem;
 }
 

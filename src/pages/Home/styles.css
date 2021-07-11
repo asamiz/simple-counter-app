@@ -1,21 +1,35 @@
 .home-container {
   display: flex;
   align-items: center;
-  flex-direction: column;
-  width: 100%;
-  height: 100vh;
-  justify-content: center;
+  justify-content: space-around;
+  margin-top: 1.7rem;
+  background-color: #ffffff;
+  width: 90vw;
+  height: 92vh;
+  align-self: center;
+  overflow: hidden;
 }
 
 .home-counter {
   font-size: 4em;
-  color: #2b5876;
+  color: #1f618d;
   font-weight: 900;
 }
 
 .home-content-container {
   display: flex;
+  flex-direction: column;
+  background-color: white;
   align-items: center;
+  justify-content: center;
+  padding: 8rem;
+  margin-inline: 4rem;
+}
+
+.home-counter-section-container {
+  display: flex;
+  align-items: center;
+  background-color: white;
 }
 
 .home-bot-view {
@@ -31,7 +45,7 @@
   width: 8rem;
   height: 6rem;
   border-radius: 0.6rem/0.8rem;
-  background-color: #ffffff;
+  background-color: #d7dbdd;
   overflow: hidden;
   display: flex;
   align-items: center;
@@ -40,7 +54,7 @@
 }
 
 #action-btn-home {
-  background: #1c92d2;
+  background: #1f618d;
   width: 4rem;
   height: 4rem;
   border-radius: 0.6rem/0.8rem;
@@ -67,7 +81,7 @@
 }
 
 .home-bot-note {
-  color: #ffffff;
+  color: #1c2833;
   font-size: 0.9em;
   text-align: center;
 }
@@ -84,5 +98,9 @@
     margin-right: 1rem;
     margin-left: 1rem;
     padding-left: 1rem;
+  }
+  .home-container {
+    width: 90vw;
+    height: 80vh;
   }
 }
