@@ -21,7 +21,7 @@ describe("Test landing page functionality", () => {
       </Router>
     );
     expect(
-      screen.getByText(/Click here to go to the counter page 👇/)
+      screen.getByText(/CLICK HERE TO GO TO THE COUNTER PAGE 👇/)
     ).toBeInTheDocument();
     const leftClick = { button: 0 };
     userEvent.click(screen.getByTestId("counter-page-btn"), leftClick);
