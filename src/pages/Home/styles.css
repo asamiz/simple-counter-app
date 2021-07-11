@@ -61,8 +61,9 @@
 
 #close-btn-home {
   background-color: #ff0000;
-  width: 9rem;
-  height: 3rem;
+  padding-inline: 4rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .home-bot-note {

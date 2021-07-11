@@ -51,7 +51,7 @@ function Home() {
           }
         </h5>
         <Button
-          title={"Close"}
+          title={"Open Mobile App"}
           onClick={openMobileApp}
           id={"close-btn-home"}
           testId={"close-btn-home"}
